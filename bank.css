@@ -1,0 +1,46 @@
+body {
+    background-color: #e7f3ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #005f7f; /* Darker blue for titles */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007f9f; /* Medium blue for amount */
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #a4c8e1; /* Light blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px; /* Spacing between buttons */
+}
+
+button:hover {
+    background-color: #7aa2b7; /* Darker shade on hover */
+}
+
+#amount {
+    font-weight: bold; /* Make the amount bold */
+    margin: 20px 0; /* Space around the amount */
+}
+
+.logout-button {
+    background-color: #ff4c4c; /* Red for logout button */
+}
+
+.logout-button:hover {
+    background-color: #c70000; /* Darker red on hover */
+}
+
